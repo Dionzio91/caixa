@@ -21,7 +21,7 @@ public class Conta {
         saldo = saldo + valor;
     }
 
-    public boolean rtirarSaldo (double valor){
+    public boolean retirarSaldo (double valor){
         if (saldo >= valor){
         saldo = saldo - valor;
         return true;

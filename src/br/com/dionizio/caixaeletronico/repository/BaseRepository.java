@@ -4,9 +4,17 @@ import br.com.dionizio.caixaeletronico.modelo.Conta;
 
 import java.util.List;
 
-public interface BaseRepositpry <T>{
+public interface BaseRepository<T> {
+
     List<Conta> findAll();
 
+    Conta findById(int id);
 
+
+    void adiciona(Conta objeto);
 
 }
+
+
+
+
